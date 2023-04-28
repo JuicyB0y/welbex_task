@@ -1,5 +1,6 @@
 @media screen and (max-width: 416px) {
   .wrapper {
+    box-sizing: border-box;
     width: 100%;
     padding-top: 31px;
   }
@@ -87,13 +88,11 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-  }
-
-  .main__wrapper {
+    /* overflow: hidden; */
+    /* width: 100vw; */
     background: url('img/glass.png') center center/cover no-repeat;
     padding-left: 15px;
-    padding-right: 30px;
+    padding-right: 0;
   }
 
   .main__left {
